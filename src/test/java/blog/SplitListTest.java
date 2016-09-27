@@ -7,19 +7,19 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 
-public class UtilityTest {
+public class SplitListTest {
 
 	@Test
 	public void test_SplitList_StringList() {
 		int itemLimitInOneList = 7;
-		List<List<String>> splittedList = Utility.splitList(getStringList(), itemLimitInOneList);
+		List<List<String>> splittedList = SplitList.splitList(getStringList(), itemLimitInOneList);
 		Assert.assertEquals(15, splittedList.size());
 	}
 
 	@Test
 	public void test_SplitList_IntegerList() {
 		int itemLimitInOneList = 15;
-		List<List<Integer>> splittedList = Utility.splitList(getIntegerList(), itemLimitInOneList);
+		List<List<Integer>> splittedList = SplitList.splitList(getIntegerList(), itemLimitInOneList);
 		Assert.assertEquals(7, splittedList.size());
 	}
 

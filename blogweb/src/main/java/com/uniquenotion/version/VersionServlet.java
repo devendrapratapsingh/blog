@@ -27,11 +27,11 @@ public class VersionServlet extends HttpServlet {
 
 	private void getVersion(final HttpServletResponse response) throws ServletException {
 		try {
-			final ServletContext application = getServletConfig().getServletContext();
+			ServletContext application = getServletConfig().getServletContext();
 			try (InputStream inputStream = application.getResourceAsStream("/META-INF/MANIFEST.MF")) {
 				final Manifest manifest = new Manifest(inputStream);
-				response.getWriter()
-						.print("Application Name " + manifest.getMainAttributes().getValue("Implementation-Version"));
+				response.getWriter().print(
+						"Application Version: " + manifest.getMainAttributes().getValue("Implementation-Version"));
 			}
 		} catch (Exception e) {
 			LOGGER.error("Error in servlet {}", e);

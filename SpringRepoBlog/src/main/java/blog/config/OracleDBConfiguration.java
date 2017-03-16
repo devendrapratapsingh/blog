@@ -30,13 +30,13 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @PropertySource(value = {"classpath:jpa.properties"}, ignoreResourceNotFound = true)
 public class OracleDBConfiguration {
 
-    @Value("${persistenceUnit.name.poi}")
+    @Value("${persistenceUnit.name}")
     private String persistenceUnit;
 
    @Value("${hibernate.show.sql}")
     private String showSql;
 
-    @Value("${datasource.jndi.poi}")
+    @Value("${datasource.jndi}")
     private String datasourceJndi;
 
     @Bean

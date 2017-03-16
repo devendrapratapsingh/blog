@@ -26,5 +26,6 @@
   <modules>
   	<module>blog</module>
   	<module>blogweb</module>
+        <module>SpringRepoBlog</module>
   </modules>
 </project>

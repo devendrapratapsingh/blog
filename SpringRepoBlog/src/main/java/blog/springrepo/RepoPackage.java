@@ -7,7 +7,7 @@ package blog.springrepo;
 
 /**
  *
- * @author ob39kf
+ * @author Devendra Singh
  */
 public interface RepoPackage {
     

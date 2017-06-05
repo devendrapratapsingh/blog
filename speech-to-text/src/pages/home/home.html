@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar [color]="isRecording ? 'danger' : 'primary'">
+    <ion-title>
+      Speech Command Demo
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <!--  <button ion-button full (click)="isSpeechSupported()" >isSupported</button>
+<button ion-button full (click)="getPermission()" >getPermission</button>
+  <button ion-button full (click)="startListening()" [hidden]="isRecording">Start</button>
+
+  <button ion-button full (click)="stopListening()" *ngIf="isIOS()" [hidden]="!isRecording">Stop</button> -->
+
+  <button ion-button full (click)="startListening()" [hidden]="isRecording"><ion-icon name="mic"></ion-icon>{{action}}</button>
+
+
+  <ion-card>
+  <ion-card-header>Command:</ion-card-header>
+  <ion-card-content>
+  	<ion-list>
+  		
+  		<!-- <ion-item *ngFor="let recording of recordings" >
+  			{{recordings[0]}}
+  		</ion-item> -->
+      <ion-item>{{recordings[0]}}</ion-item>
+  	</ion-list>
+
+  </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-speech-recognition-feat-siri",
+        "scope": null,
+        "escapedName": "cordova-plugin-speech-recognition-feat-siri",
+        "name": "cordova-plugin-speech-recognition-feat-siri",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/devendrasingh/ionic/speech-to-text/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-speech-recognition-feat-siri@latest",
+  "_id": "cordova-plugin-speech-recognition-feat-siri@2.1.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-speech-recognition-feat-siri",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-speech-recognition-feat-siri-2.1.1.tgz_1493437401983_0.6116593272890896"
+  },
+  "_npmUser": {
+    "name": "bluedesign",
+    "email": "bluedesign.jp@gmail.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-speech-recognition-feat-siri",
+    "scope": null,
+    "escapedName": "cordova-plugin-speech-recognition-feat-siri",
+    "name": "cordova-plugin-speech-recognition-feat-siri",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-speech-recognition-feat-siri/-/cordova-plugin-speech-recognition-feat-siri-2.1.1.tgz",
+  "_shasum": "1e041d11edd3201e1214dfb48f104bd66eae02a9",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-speech-recognition-feat-siri",
+  "_where": "/Users/devendrasingh/ionic/speech-to-text/node_modules",
+  "author": {
+    "name": "SOHKAKUDO Ltd."
+  },
+  "bugs": {
+    "url": "https://github.com/bluedesign/speech-recognition-feat-siri/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-speech-recognition-feat-siri",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Plugin Speech Recognition feat. Siri",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1e041d11edd3201e1214dfb48f104bd66eae02a9",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-speech-recognition-feat-siri/-/cordova-plugin-speech-recognition-feat-siri-2.1.1.tgz"
+  },
+  "gitHead": "50b8b7f8f7f0ff664d5b0bed08ed732c7bea7350",
+  "homepage": "https://github.com/bluedesign/speech-recognition-feat-siri#readme",
+  "keywords": [
+    "cordova",
+    "SpeechRecognition",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "bluedesign",
+      "email": "aoyama@sohkakudo.co.jp"
+    }
+  ],
+  "name": "cordova-plugin-speech-recognition-feat-siri",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluedesign/speech-recognition-feat-siri.git"
+  },
+  "scripts": {},
+  "version": "2.1.1"
+}
